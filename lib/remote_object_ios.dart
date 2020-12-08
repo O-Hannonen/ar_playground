@@ -47,7 +47,8 @@ class _RemoteObjectIOSState extends State<RemoteObjectIOS> {
       controller.remove(node.name);
     }
     node = ARKitReferenceNode(
-      url: 'models.scnassets/dash.dae',
+      url:
+          'https://github.com/O-Hannonen/ar_playground/blob/master/assets/gun.dae',
       scale: vector.Vector3.all(0.3),
     );
     controller.add(node, parentNodeName: anchor.nodeName);
