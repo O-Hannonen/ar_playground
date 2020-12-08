@@ -1,1 +1,107 @@
-{"accessors" : [{"bufferView" : 0, "byteOffset" : 0, "componentType" : 5123, "count" : 43698, "type" : "SCALAR", "max" : [43697], "min" : [0]}, {"bufferView" : 1, "byteOffset" : 0, "componentType" : 5126, "count" : 43698, "type" : "VEC3", "max" : [1.9557985067367554, 1.0733695030212402, -0.005659818649291992], "min" : [-1.953019142150879, -1.536990761756897, -4.878623008728027]}, {"bufferView" : 1, "byteOffset" : 12, "componentType" : 5126, "count" : 43698, "type" : "VEC3", "max" : [0.9999885559082031, 0.9999141693115234, 0.9999959468841553], "min" : [-0.9999314546585083, -0.9999901652336121, -0.9992708563804626]}, {"bufferView" : 1, "byteOffset" : 24, "componentType" : 5126, "count" : 43698, "type" : "VEC2", "max" : [0.9897819757461548, 0.9996313452720642], "min" : [0.00036863464629277587, 1.5020370483398438E-05]}], "asset" : {"generator" : "Aspose.3D 20.11", "version" : "2.0"}, "buffers" : [{"uri" : "buffer.bin", "byteLength" : 1485740}], "bufferViews" : [{"buffer" : 0, "byteOffset" : 0, "byteLength" : 87396, "target" : 34963}, {"buffer" : 0, "byteOffset" : 87400, "byteLength" : 1398336, "byteStride" : 32, "target" : 34962}], "materials" : [{"pbrMetallicRoughness" : {"baseColorFactor" : [0.800000011920929, 0.800000011920929, 0.800000011920929, 1], "metallicFactor" : 0, "roughnessFactor" : 0.5}, "emissiveFactor" : [0, 0, 0], "alphaMode" : "OPAQUE", "doubleSided" : true}], "meshes" : [{"primitives" : [{"attributes" : {"POSITION" : 1, "NORMAL" : 2, "TEXCOORD_0" : 3}, "indices" : 0, "material" : 0, "mode" : 4}]}], "nodes" : [{"matrix" : [0.8582791090011597, 0, 0, 0, 0, -1.1531739963040394E-07, 0.8582790796235112, 0, 0, -0.8582790796235112, -1.1531739963040394E-07, 0, -4.005947113037109, -0.008502483367919922, 0, 1], "mesh" : 0, "name" : "Possu_low2"}], "scene" : 0, "scenes" : [{"nodes" : [0]}]}
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 43698,
+      "type": "SCALAR",
+      "max": [43697],
+      "min": [0]
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 43698,
+      "type": "VEC3",
+      "max": [1.9557985067367554, 1.0733695030212402, -0.005659818649291992],
+      "min": [-1.953019142150879, -1.536990761756897, -4.878623008728027]
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 43698,
+      "type": "VEC3",
+      "max": [0.9999885559082031, 0.9999141693115234, 0.9999959468841553],
+      "min": [-0.9999314546585083, -0.9999901652336121, -0.9992708563804626]
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 43698,
+      "type": "VEC2",
+      "max": [0.9897819757461548, 0.9996313452720642],
+      "min": [0.00036863464629277587, 1.5020370483398438e-5]
+    }
+  ],
+  "asset": { "generator": "Aspose.3D 20.11", "version": "2.0" },
+  "buffers": [{ "uri": "buffer.bin", "byteLength": 1485740 }],
+  "bufferViews": [
+    { "buffer": 0, "byteOffset": 0, "byteLength": 87396, "target": 34963 },
+    {
+      "buffer": 0,
+      "byteOffset": 87400,
+      "byteLength": 1398336,
+      "byteStride": 32,
+      "target": 34962
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.5
+      },
+      "emissiveFactor": [0, 0, 0],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": { "POSITION": 1, "NORMAL": 2, "TEXCOORD_0": 3 },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "matrix": [
+        0.8582791090011597,
+        0,
+        0,
+        0,
+        0,
+        -1.1531739963040394e-7,
+        0.8582790796235112,
+        0,
+        0,
+        -0.8582790796235112,
+        -1.1531739963040394e-7,
+        0,
+        -4.005947113037109,
+        -0.008502483367919922,
+        0,
+        1
+      ],
+      "mesh": 0,
+      "name": "Possu_low2"
+    }
+  ],
+  "scene": 0,
+  "scenes": [{ "nodes": [0] }]
+}
