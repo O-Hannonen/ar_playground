@@ -37,7 +37,7 @@ class _RemoteObjectState extends State<RemoteObject> {
       name: "Possu",
       objectUrl:
           //"https://github.com/KhronosGroup/glTF-Sample-Models/raw/master/2.0/Duck/glTF/Duck.gltf",
-          'https://github.com/O-Hannonen/ar_playground/blob/master/assets/Pig.gltf',
+          'https://github.com/O-Hannonen/ar_playground/blob/master/assets/Possu.glb',
       position: plane.pose.translation,
       rotation: plane.pose.rotation,
     );
