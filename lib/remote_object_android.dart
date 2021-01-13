@@ -21,6 +21,8 @@ class _RemoteObjectAndroidState extends State<RemoteObjectAndroid> {
         body: ArCoreView(
           onArCoreViewCreated: _onArCoreViewCreated,
           enableTapRecognizer: true,
+          debug: true,
+          enableUpdateListener: true,
         ),
       ),
     );
@@ -32,22 +34,23 @@ class _RemoteObjectAndroidState extends State<RemoteObjectAndroid> {
     arCoreController.onPlaneTap = _handleOnPlaneTap;
   }
 
-  void _addToucano(ArCoreHitTestResult plane) {
-    final toucanNode = ArCoreReferenceNode(
+  void _addObject(ArCoreHitTestResult plane) {
+    final node = ArCoreReferenceNode(
       name: "Possu",
       objectUrl:
-          //"https://github.com/KhronosGroup/glTF-Sample-Models/raw/master/2.0/Duck/glTF/Duck.gltf",
-          'https://github.com/O-Hannonen/ar_playground/blob/master/assets/Pig.gltf',
+          "https://github.com/KhronosGroup/glTF-Sample-Models/raw/master/2.0/Duck/glTF/Duck.gltf",
+      // 'https://github.com/O-Hannonen/ar_playground/blob/master/assets/Pig.gltf',
       position: plane.pose.translation,
       rotation: plane.pose.rotation,
     );
 
-    arCoreController.addArCoreNodeWithAnchor(toucanNode);
+    arCoreController.addArCoreNodeWithAnchor(node);
+    print('Added ${node.name}!');
   }
 
   void _handleOnPlaneTap(List<ArCoreHitTestResult> hits) {
     final hit = hits.first;
-    _addToucano(hit);
+    _addObject(hit);
   }
 
   void onTapHandler(String name) {

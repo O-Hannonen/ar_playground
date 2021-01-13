@@ -3,7 +3,7 @@ description: Demonstrates how to use the arcore_flutter_plugin plugin.
 publish_to: "none"
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.5.2 <3.0.0"
 
 dependencies:
   flutter:
@@ -19,6 +19,7 @@ dev_dependencies:
 
   arcore_flutter_plugin:
   arkit_plugin: ^0.6.0
+  raavailability: ^0.1.6
 
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec

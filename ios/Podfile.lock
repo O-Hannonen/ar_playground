@@ -2,20 +2,26 @@ PODS:
   - arkit_plugin (0.0.1):
     - Flutter
   - Flutter (1.0.0)
+  - raavailability (0.0.1):
+    - Flutter
 
 DEPENDENCIES:
   - arkit_plugin (from `.symlinks/plugins/arkit_plugin/ios`)
   - Flutter (from `Flutter`)
+  - raavailability (from `.symlinks/plugins/raavailability/ios`)
 
 EXTERNAL SOURCES:
   arkit_plugin:
     :path: ".symlinks/plugins/arkit_plugin/ios"
   Flutter:
     :path: Flutter
+  raavailability:
+    :path: ".symlinks/plugins/raavailability/ios"
 
 SPEC CHECKSUMS:
   arkit_plugin: 3e42571e8be84adabb8a178bd51c22fa981e16bd
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  raavailability: 6179f47c5b8601e4665b6c77dd90034e4e9ffc14
 
 PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
 

@@ -31,6 +31,7 @@ class _RemoteObjectIOSState extends State<RemoteObjectIOS> {
       );
 
   void onARKitViewCreated(ARKitController arkitController) {
+    print('ARkit view created');
     this.arkitController = arkitController;
     this.arkitController.onAddNodeForAnchor = _handleAddAnchor;
   }
@@ -42,14 +43,15 @@ class _RemoteObjectIOSState extends State<RemoteObjectIOS> {
   }
 
   void _addPlane(ARKitController controller, ARKitPlaneAnchor anchor) {
+    print('Adding plane');
     anchorId = anchor.identifier;
     if (node != null) {
       controller.remove(node.name);
     }
     node = ARKitReferenceNode(
-      url:
-          'https://github.com/O-Hannonen/ar_playground/blob/master/assets/gun.dae',
-      scale: vector.Vector3.all(0.3),
+      url: 'assets/gun.dae',
+      scale: vector.Vector3.all(100),
+      position: anchor.center,
     );
     controller.add(node, parentNodeName: anchor.nodeName);
   }
